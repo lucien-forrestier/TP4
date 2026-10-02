@@ -1,6 +1,8 @@
 import math
 import matplotlib.pyplot as plt
-
+"""
+Classe représentant un nœud dans un arbre d'expression.
+"""
 class Noeud:
     def __init__(self,valeur):
         self.valeur = valeur
